@@ -1,0 +1,59 @@
+html {
+  font-family: sans-serif;
+}
+
+.flex-outer li, .flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li button {
+  margin: 0 auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+.flex-inner li {
+  width: 100px;
+}
+
+label {
+  text-align: right;
+}
+
+p {
+  text-align: right;
+}
+
+.flex-inner {
+  justify-content: space-between;
+}
+
+ul > h2 {
+  margin: 0px auto;
+  text-align: center;
+  padding: 0px;
+  border: 0px;
+  background-color: #42f4f4;
+}
+
+ul.flex-outer {
+  padding: 10px;
+}

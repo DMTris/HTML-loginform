@@ -1,0 +1,30 @@
+{
+  "name": "html-loginform",
+  "version": "1.0.0",
+  "description": "react practice for a login form",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMTris/HTML-loginform.git"
+  },
+  "keywords": [
+    "react",
+    "playground",
+    "html-forms"
+  ],
+  "author": "Chris Langdale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DMTris/HTML-loginform/issues"
+  },
+  "homepage": "https://github.com/DMTris/HTML-loginform#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}

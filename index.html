@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Colorful Login</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <form>
+    <ul class="flex-outer">
+      <h2>Registration Form</h2>
+      <li>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" placeholder="Enter your first name here" />
+      </li>
+      <li>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="Endter your last name here" />
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email address here" />
+      </li>
+      <li>
+        <label for="phone">Phone number</label>
+        <input type="text" id="phone" placeholder="Enter your phone number here" />
+      </li>
+      <li>
+        <label for="message">Message</label>
+        <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+      </li>
+      <li>
+        <p>Age</p>
+        <ul class="flex-inner">
+          <!--list items here -->
+          <li>
+            <input type="checkbox" id="under-eighteen" />
+            <label for="under-eighteen">Under 18</label>
+          </li>
+          <li>
+            <input type="checkbox" id="eighteen-to-nineteen" />
+            <label for="eighteen-to-nineteen">18-19</label>
+          </li>
+          <li>
+            <input type="checkbox" id="twenty-to-twentynine" />
+            <label for="twenty-to-twentynine">20-29</label>
+          </li>
+          <li>
+            <input type="checkbox" id="thirty-to-thirtynine" />
+            <label for="thirty-to-thirtynine">30-39</label>
+          </li>
+          <li>
+            <input type="checkbox" id="forty-to-fortynine" />
+            <label for="forty-to-fortynine">40-49</label>
+          </li>
+          <li>
+            <input type="checkbox" id="fifty-plus" />
+            <label for="fifty-plus">50+</label>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <button type="submit" name="button">Submit</button>
+      </li>
+    </ul>
+  </form>
+</body>
+</html>
